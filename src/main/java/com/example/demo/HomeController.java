@@ -14,5 +14,12 @@ public class HomeController {
 		mv.setViewName("index.jsp");
 		return mv;
 	} 
+	
+	@RequestMapping("/home")
+	public ModelAndView about() {
+		ModelAndView mv=new ModelAndView();
+		mv.setViewName("about.jsp");
+		return mv;
+	}
 
 }
