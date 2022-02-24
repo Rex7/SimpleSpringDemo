@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 @RestController
 public class HomeController {
 	
-	@RequestMapping("/home")
+	@RequestMapping("/")
 	public ModelAndView home() {
 		ModelAndView mv=new ModelAndView();
 		mv.setViewName("index.jsp");
